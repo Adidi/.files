@@ -1,9 +1,11 @@
+dir=~/.files  
 
-git clone git@github.com:Adidi/.files.git ~/.files
+
+git clone git@github.com:Adidi/.files.git $dir
 
 # oh my zsh
-ln -s ~/.files/oh-my-zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
-ln -s ~/.files/oh-my-zsh/into.zsh ~/.oh-my-zsh/custom/into.zsh
+ln -s $dir/oh-my-zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+ln -s $dir/oh-my-zsh/init.zsh ~/.oh-my-zsh/custom/init.zsh
 
 # tmux
-ln -s ~/.files/tmux/.tmux.conf ~/.tmux.conf
+ln -s $dir/tmux/.tmux.conf ~/.tmux.conf
