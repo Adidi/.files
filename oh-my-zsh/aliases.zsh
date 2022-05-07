@@ -21,9 +21,11 @@ alias lol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgree
 
 alias lola="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --all"
 
-alias ss="git status -s"
+alias ss="git status"
 
 alias c="git commit -v"
+
+alias a="git add"
 
 
 
