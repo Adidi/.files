@@ -27,5 +27,9 @@ alias c="git commit -v"
 
 alias a="git add"
 
+# work:
+alias metro="cd ~/code/metro"
+alias mw="cd ~/code/metro/MetroWeb"
+alias cmw="code ~/code/metro/MetroWeb"
 
 
