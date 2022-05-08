@@ -17,9 +17,9 @@ alias ntw="sudo service NetworkManager restart"
 
 alias gfap="git fetch --all --prune"
 
-alias lol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
+alias lol="git log --color --graph --pretty=format:'%C(bold cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-alias lola="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --all"
+alias lola="git log --color --graph --pretty=format:'%C(bold cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all"
 
 alias ss="git status"
 
