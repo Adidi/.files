@@ -31,5 +31,6 @@ alias a="git add"
 alias metro="cd ~/code/metro"
 alias mw="cd ~/code/metro/MetroWeb"
 alias cmw="code ~/code/metro/MetroWeb"
+alias cmt="code ~/code/metro/MetroTest"
 
 
