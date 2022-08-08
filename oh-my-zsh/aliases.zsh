@@ -34,4 +34,6 @@ alias mt="cd ~/code/metro/MetroTest"
 alias cmw="code ~/code/metro/MetroWeb"
 alias cmt="code ~/code/metro/MetroTest"
 
+alias python="python3"
+
 
