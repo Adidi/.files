@@ -34,6 +34,10 @@ alias mt="cd ~/code/metro/MetroTest"
 alias cmw="code ~/code/metro/MetroWeb"
 alias cmt="code ~/code/metro/MetroTest"
 
+alias dsf="cd ~/code/ds-flink-projects"
+alias dsui="code ~/code/ds-flink-projects/DSFlinkUI"
+alias dsapi="code ~/code/ds-flink-projects/DSFlinkAPI"
+
 alias python="python3"
 
 
