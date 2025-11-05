@@ -34,6 +34,7 @@ alias tonic-data="cd ~/code/tonic/tonic-flow"
 alias run-devs="tonic-web && yarn workspace nestjs-server dev"
 alias run-devc="tonic-web && yarn workspace react-client dev"
 alias run-fake="tonic-data && source .venv/bin/activate && make work && make fake"
+alias code-t="tonic-web && code ."
 
 alias python="python3"
 
