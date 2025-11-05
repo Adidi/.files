@@ -28,15 +28,12 @@ alias c="git commit -v"
 alias a="git add"
 
 # work:
-alias metro="cd ~/code/metro"
-alias mw="cd ~/code/metro/MetroWeb"
-alias mt="cd ~/code/metro/MetroTest"
-alias cmw="code ~/code/metro/MetroWeb"
-alias cmt="code ~/code/metro/MetroTest"
-
-alias dsf="cd ~/code/ds-flink-projects"
-alias dsui="code ~/code/ds-flink-projects/DSFlinkUI"
-alias dsapi="code ~/code/ds-flink-projects/DSFlinkAPI"
+alias tonic="cd ~/code/tonic"
+alias tonic-web="cd ~/code/tonic/tonic-labs"
+alias tonic-data="cd ~/code/tonic/tonic-flow"
+alias run-devs="tonic-web && yarn workspace nestjs-server dev"
+alias run-devc="tonic-web && yarn workspace react-client dev"
+alias run-fake="tonic-data && source .venv/bin/activate && make work && make fake"
 
 alias python="python3"
 
