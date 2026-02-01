@@ -28,11 +28,8 @@ alias c="git commit -v"
 alias a="git add"
 
 # work:
-alias tonic="cd ~/code/tonic"
-alias tonic-web="cd ~/code/tonic/tonic-labs"
-alias tonic-data="cd ~/code/tonic/tonic-flow"
-alias run-fake="tonic-data && source .venv/bin/activate && make work && make fake"
-alias code-t="tonic-web && code ."
+alias mb="cd ~/code/multibrand"
+alias cmb="mb && code ."
 
 # code personal
 alias cds="code ~/code-dev/deno-sandbox"
