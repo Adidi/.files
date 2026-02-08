@@ -30,6 +30,9 @@ alias a="git add"
 # work:
 alias mb="cd ~/code/multibrand"
 alias cmb="mb && code ."
+alias tsu="sudo tailscale up --exit-node=tailscale-dev-eu-central-1"
+alias tsd="sudo tailscale down"
+alias tss="sudo tailscale status"
 
 # code personal
 alias cds="code ~/code-dev/deno-sandbox"
