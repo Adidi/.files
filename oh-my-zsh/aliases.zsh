@@ -30,12 +30,16 @@ alias a="git add"
 # work:
 alias mb="cd ~/code/multibrand"
 alias cmb="mb && code ."
+alias mbd="cd ~/code-debug/multibrand-DEBUG"
+alias cmbd="mbd && code ."
 alias tsu="sudo tailscale up --accept-routes --exit-node="
+alias tsu-t="sudo tailscale up --exit-node=lightnode-turkey --accept-routes"
 alias tsd="sudo tailscale down"
 alias tss="sudo tailscale status"
 
 # code personal
 alias cds="code ~/code-dev/deno-sandbox"
+alias tools="cd ~/code-debug/tools"
 
 alias python="python3"
 
