@@ -36,6 +36,7 @@ alias tsu="sudo tailscale up --accept-routes --exit-node="
 alias tsu-t="sudo tailscale up --exit-node=lightnode-turkey --accept-routes"
 alias tsd="sudo tailscale down"
 alias tss="sudo tailscale status"
+alias xaws="~/code-debug/tools/aws.sh"
 
 # code personal
 alias cds="code ~/code-dev/deno-sandbox"
