@@ -32,12 +32,20 @@ alias mb="cd ~/code/multibrand"
 alias cmb="mb && code ."
 alias mbd="cd ~/code-debug/multibrand-DEBUG"
 alias cmbd="mbd && code ."
-alias tsu="sudo tailscale up --accept-routes --exit-node="
-alias tsu-t="sudo tailscale up --exit-node=lightnode-turkey --accept-routes"
-alias tsd="sudo tailscale down"
-alias tss="sudo tailscale status"
+
+# aws:
 alias xaws="~/code-debug/tools/aws.sh"
 alias xdep="~/code-debug/tools/deploy.sh"
+
+# tailscale:
+alias tsu="sudo tailscale up --accept-routes --exit-node="
+alias tsu-tr="sudo tailscale up --exit-node=lightnode-turkey --accept-routes"
+alias tsu-br="sudo tailscale up --exit-node=brazil-ts-exit-node --accept-routes"
+alias tsu-eg="sudo tailscale up --exit-node=lightnode-eygpt --accept-routes"
+
+alias tsd="sudo tailscale down"
+alias tss="sudo tailscale status"
+
 
 # code personal
 alias cds="code ~/code-dev/deno-sandbox"
