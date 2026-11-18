@@ -27,29 +27,7 @@ alias c="git commit -v"
 
 alias a="git add"
 
-# work:
-alias mb="cd ~/code/multibrand"
-alias cmb="mb && code ."
-alias mbd="cd ~/code-debug/multibrand-DEBUG"
-alias cmbd="mbd && code ."
 
-# aws:
-alias xaws="~/code-debug/tools/aws.sh"
-alias xdep="~/code-debug/tools/deploy.sh"
-
-# tailscale:
-alias tsu="sudo tailscale up --accept-routes --exit-node="
-alias tsu-tr="sudo tailscale up --exit-node=lightnode-turkey --accept-routes"
-alias tsu-br="sudo tailscale up --exit-node=brazil-ts-exit-node --accept-routes"
-alias tsu-eg="sudo tailscale up --exit-node=lightnode-eygpt --accept-routes"
-
-alias tsd="sudo tailscale down"
-alias tss="sudo tailscale status"
-
-
-# code personal
-alias cds="code ~/code-dev/deno-sandbox"
-alias tools="cd ~/code-debug/tools"
 
 alias python="python3"
 
