@@ -1,3 +1,12 @@
+cat << "EOF"
+    ___       ___     ___ 
+   /   | ____/ (_)___/ (_)
+  / /| |/ __  / / __  / / 
+ / ___ / /_/ / / /_/ / /  
+/_/  |_\__,_/_/\__,_/_/   
+
+EOF
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
