@@ -1,0 +1,3 @@
+
+Install zsh oh-my-zsh tmux and run
+`curl -fsSL https://raw.githubusercontent.com/Adidi/.files/main/setup.sh | bash`
